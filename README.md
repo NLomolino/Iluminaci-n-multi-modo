@@ -17,3 +17,6 @@ Conexiones (Hardware)
     placa: Arduino Uno.
     Entradas: Potenciómetro, Fotorresistencia (LDR) y dos pulsadores.
     Salida: Un LED común con su resistencia
+
+![Esquema del circuito](img/circuito.png)
+![Foto del circuito real](img/circuito_fisico.jpg)

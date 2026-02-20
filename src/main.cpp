@@ -1,5 +1,11 @@
 #include <Arduino.h>
 
+/*prototipado*/
+void manual();
+void automatico();
+void progresivo();
+void calibrar();
+
 const int pinLed = 9;
 const int poten = A0;
 const int boton = 2; // cambios de modo
@@ -51,8 +57,6 @@ void loop()
     }
     
     estadoAnterior = estadoActual;
-
-
 
     switch (modo)
     {
